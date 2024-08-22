@@ -1,0 +1,15 @@
+.text-container {
+    margin: 25px;
+    width: 800px;
+    border-radius: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}

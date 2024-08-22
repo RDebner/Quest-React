@@ -1,0 +1,11 @@
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+button {
+    width: 200px;
+    overflow-wrap: break-word;
+    word-wrap: normal;
+}
