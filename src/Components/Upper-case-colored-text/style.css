@@ -47,8 +47,15 @@
     }
 }
 
-@media (max-width: 400) {
+@media (max-width: 480) {
     .text-container {
-        width: 300px;
+        background-color: red;
+        width: 200px;
+    }
+}
+
+@media (max-width: 425) {
+    .text-container {
+        width: 100px;
     }
 }
