@@ -1,6 +1,6 @@
 .text-container {
     margin: 25px;
-    width: 800px;
+    width: 700px;
     border-radius: 25px;
     background-color: black;
     display: flex;
@@ -9,7 +9,46 @@
 }
 
 .text {
+    font-size: 2.5em;
     width: 100%;
     overflow-wrap: break-word;
     word-wrap: break-word;
+}
+
+@media (max-width: 915px) {
+    .text-container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 720px) {
+    .text-container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 590px) {
+    .text-container {
+        width: 400px;
+    }
+
+    .text {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 460px) {
+    .text-container {
+        width: 360px;
+    }
+
+    .text {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 400) {
+    .text-container {
+        width: 300px;
+    }
 }
